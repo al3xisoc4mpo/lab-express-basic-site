@@ -9,11 +9,11 @@ router.get("/", (req, res) => {
 })
 
 router.get("/about", (req, res) => {
-    // res.send("About");
+    res.render("about"); 
 })
 
 router.get("/works", (req, res) => {
-    // res.send("Works");
+    res.render("works"); 
 })
 
 // 3. EXPORTACION
